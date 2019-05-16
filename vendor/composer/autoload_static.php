@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit7de574ecebf7465453175ea78f0829ba
+class ComposerStaticInitd0ca98686da17ca9756b4c2ab8035a75
 {
     public static $prefixLengthsPsr4 = array (
         'P' => 
@@ -16,15 +16,15 @@ class ComposerStaticInit7de574ecebf7465453175ea78f0829ba
     public static $prefixDirsPsr4 = array (
         'PhpAmqpLib\\' => 
         array (
-            0 => __DIR__ . '/..' . '/videlalvaro/php-amqplib/PhpAmqpLib',
+            0 => __DIR__ . '/..' . '/php-amqplib/php-amqplib/PhpAmqpLib',
         ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit7de574ecebf7465453175ea78f0829ba::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit7de574ecebf7465453175ea78f0829ba::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitd0ca98686da17ca9756b4c2ab8035a75::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitd0ca98686da17ca9756b4c2ab8035a75::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

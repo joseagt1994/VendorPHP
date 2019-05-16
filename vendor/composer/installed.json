@@ -1,17 +1,17 @@
 [
     {
-        "name": "videlalvaro/php-amqplib",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
+        "name": "php-amqplib/php-amqplib",
+        "version": "v2.9.2",
+        "version_normalized": "2.9.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/php-amqplib/php-amqplib.git",
-            "reference": "adfd7f53b0b39e8b093273ab3fa30f89e672eb22"
+            "reference": "76faddcd668dabb8d4f7c00e86b8a9decd781a59"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/php-amqplib/php-amqplib/zipball/adfd7f53b0b39e8b093273ab3fa30f89e672eb22",
-            "reference": "adfd7f53b0b39e8b093273ab3fa30f89e672eb22",
+            "url": "https://api.github.com/repos/php-amqplib/php-amqplib/zipball/76faddcd668dabb8d4f7c00e86b8a9decd781a59",
+            "reference": "76faddcd668dabb8d4f7c00e86b8a9decd781a59",
             "shasum": ""
         },
         "require": {
@@ -23,12 +23,13 @@
             "videlalvaro/php-amqplib": "self.version"
         },
         "require-dev": {
+            "ext-curl": "*",
+            "nategood/httpful": "^0.2.20",
             "phpdocumentor/phpdocumentor": "^2.9",
             "phpunit/phpunit": "^4.8",
-            "scrutinizer/ocular": "^1.1",
             "squizlabs/php_codesniffer": "^2.5"
         },
-        "time": "2019-02-19T14:25:42+00:00",
+        "time": "2019-04-24T15:36:21+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -72,7 +73,6 @@
             "message",
             "queue",
             "rabbitmq"
-        ],
-        "abandoned": "php-amqplib/php-amqplib"
+        ]
     }
 ]

@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f48310ab6d2d645b893fa26a2038c98",
+    "content-hash": "f0b42ac9169509834501cb7aa271b580",
     "packages": [
         {
-            "name": "videlalvaro/php-amqplib",
-            "version": "dev-master",
+            "name": "php-amqplib/php-amqplib",
+            "version": "v2.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-amqplib/php-amqplib.git",
-                "reference": "adfd7f53b0b39e8b093273ab3fa30f89e672eb22"
+                "reference": "76faddcd668dabb8d4f7c00e86b8a9decd781a59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-amqplib/php-amqplib/zipball/adfd7f53b0b39e8b093273ab3fa30f89e672eb22",
-                "reference": "adfd7f53b0b39e8b093273ab3fa30f89e672eb22",
+                "url": "https://api.github.com/repos/php-amqplib/php-amqplib/zipball/76faddcd668dabb8d4f7c00e86b8a9decd781a59",
+                "reference": "76faddcd668dabb8d4f7c00e86b8a9decd781a59",
                 "shasum": ""
             },
             "require": {
@@ -29,9 +29,10 @@
                 "videlalvaro/php-amqplib": "self.version"
             },
             "require-dev": {
+                "ext-curl": "*",
+                "nategood/httpful": "^0.2.20",
                 "phpdocumentor/phpdocumentor": "^2.9",
                 "phpunit/phpunit": "^4.8",
-                "scrutinizer/ocular": "^1.1",
                 "squizlabs/php_codesniffer": "^2.5"
             },
             "type": "library",
@@ -77,16 +78,13 @@
                 "queue",
                 "rabbitmq"
             ],
-            "abandoned": "php-amqplib/php-amqplib",
-            "time": "2019-02-19T14:25:42+00:00"
+            "time": "2019-04-24T15:36:21+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "videlalvaro/php-amqplib": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
